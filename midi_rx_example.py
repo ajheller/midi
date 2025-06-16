@@ -60,7 +60,7 @@ def midi_callback(message, midi_time):
 
 
 # see Table 4.1 for button values
-#   FIXME: this doesn't work, don't know why
+#   NOTE: for this to work, the LEDs must be set to EXTERNAL mode with the KORG app
 #
 def razzle_dazzle(out_port):
     for status in range(0xB0, 0xB1):
